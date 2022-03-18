@@ -335,3 +335,25 @@ input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+footer {
+  max-width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #4e54c8;
+}
+.footer-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.copyright p {
+  color: #f3f2f3;
+}
+
+
